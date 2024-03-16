@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 
-*{
+* {
   margin: 0%;
   box-sizing: border-box;
 }
@@ -21,7 +21,6 @@
   top: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-
 }
 
 .main-clouds .clouds {
@@ -31,23 +30,14 @@
   z-index: -1;
   height: 50px;
   width: 50px;
-  box-shadow:
-    #71b4d0 55px -10px 0 -5px,
-    #71b4d0 15px -20px,
-    #71b4d0 30px 10px,
-    #71b4d0 60px 15px 0 -10px,
-    #71b4d0 85px 5px 0 -5px;
-
+  box-shadow: #71b4d0 55px -10px 0 -5px, #71b4d0 15px -20px, #71b4d0 30px 10px,
+    #71b4d0 60px 15px 0 -10px, #71b4d0 85px 5px 0 -5px;
 }
 
 .main-clouds .cloud1 {
   background: #a4ccd9;
-  box-shadow:
-    #a4ccd9 55px -10px 0 -5px,
-    #a4ccd9 15px -20px,
-    #a4ccd9 30px 10px,
-    #a4ccd9 60px 15px 0 -10px,
-    #a4ccd9 85px 5px 0 -5px,
+  box-shadow: #a4ccd9 55px -10px 0 -5px, #a4ccd9 15px -20px, #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px, #a4ccd9 85px 5px 0 -5px,
     #b3c4c9 20px 0px 35px 5px;
   top: 170px;
   left: 720px;
@@ -59,12 +49,8 @@
   left: 540px;
   transform: rotate(357deg);
   background: #40a6bd;
-  box-shadow:
-    #40a6bd 55px -10px 0 -5px,
-    #40a6bd 15px -20px,
-    #40a6bd 30px 10px,
-    #40a6bd 60px 15px 0 -10px,
-    #40a6bd 85px 5px 0 -5px,
+  box-shadow: #40a6bd 55px -10px 0 -5px, #40a6bd 15px -20px, #40a6bd 30px 10px,
+    #40a6bd 60px 15px 0 -10px, #40a6bd 85px 5px 0 -5px,
     #b3c4c9 20px 0px 35px 10px;
 }
 
@@ -73,12 +59,8 @@
   left: 440px;
   transform: rotate(357deg);
   background: #a4ccd9;
-  box-shadow:
-    #a4ccd9 55px -10px 0 -5px,
-    #a4ccd9 15px -20px,
-    #a4ccd9 30px 10px,
-    #a4ccd9 60px 15px 0 -10px,
-    #a4ccd9 85px 5px 0 -5px,
+  box-shadow: #a4ccd9 55px -10px 0 -5px, #a4ccd9 15px -20px, #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px, #a4ccd9 85px 5px 0 -5px,
     #b3c4c9 25px 0px 35px 5px;
 }
 
@@ -87,12 +69,8 @@
   left: 680px;
   transform: rotate(357deg);
   background: #40a6bd;
-  box-shadow:
-    #40a6bd 55px -10px 0 -5px,
-    #40a6bd 15px -20px,
-    #40a6bd 30px 10px,
-    #40a6bd 60px 15px 0 -10px,
-    #40a6bd 85px 5px 0 -5px,
+  box-shadow: #40a6bd 55px -10px 0 -5px, #40a6bd 15px -20px, #40a6bd 30px 10px,
+    #40a6bd 60px 15px 0 -10px, #40a6bd 85px 5px 0 -5px,
     #b3c4c9 20px 0px 35px 10px;
 }
 
@@ -101,12 +79,8 @@
   left: 340px;
   transform: rotate(357deg);
   background: #a4ccd9;
-  box-shadow:
-    #a4ccd9 55px -10px 0 -5px,
-    #a4ccd9 15px -20px,
-    #a4ccd9 30px 10px,
-    #a4ccd9 60px 15px 0 -10px,
-    #a4ccd9 85px 5px 0 -5px,
+  box-shadow: #a4ccd9 55px -10px 0 -5px, #a4ccd9 15px -20px, #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px, #a4ccd9 85px 5px 0 -5px,
     #b3c4c9 25px 10px 35px 10px;
 }
 
@@ -115,12 +89,8 @@
   left: 310px;
   transform: rotate(340deg);
   background: #a4ccd9;
-  box-shadow:
-    #a4ccd9 55px -10px 0 -5px,
-    #a4ccd9 15px -20px,
-    #a4ccd9 30px 10px,
-    #a4ccd9 60px 15px 0 -10px,
-    #a4ccd9 85px 5px 0 -5px,
+  box-shadow: #a4ccd9 55px -10px 0 -5px, #a4ccd9 15px -20px, #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px, #a4ccd9 85px 5px 0 -5px,
     #b3c4c9 35px -15px 35px 10px;
 }
 
@@ -129,12 +99,8 @@
   left: 280px;
   transform: rotate(357deg);
   background: #71b4d0;
-  box-shadow:
-    #71b4d0 55px -10px 0 -5px,
-    #71b4d0 15px -20px,
-    #71b4d0 30px 10px,
-    #71b4d0 60px 15px 0 -10px,
-    #71b4d0 85px 5px 0 -5px,
+  box-shadow: #71b4d0 55px -10px 0 -5px, #71b4d0 15px -20px, #71b4d0 30px 10px,
+    #71b4d0 60px 15px 0 -10px, #71b4d0 85px 5px 0 -5px,
     #b3c4c9 10px -10px 35px 5px;
 }
 
@@ -143,12 +109,8 @@
   left: 40px;
   transform: rotate(357deg);
   background: #71b4d0;
-  box-shadow:
-    #71b4d0 55px -10px 0 -5px,
-    #71b4d0 15px -20px,
-    #71b4d0 30px 10px,
-    #71b4d0 60px 15px 0 -10px,
-    #71b4d0 85px 5px 0 -5px,
+  box-shadow: #71b4d0 55px -10px 0 -5px, #71b4d0 15px -20px, #71b4d0 30px 10px,
+    #71b4d0 60px 15px 0 -10px, #71b4d0 85px 5px 0 -5px,
     #b3c4c9 25px -10px 35px 5px;
 }
 
@@ -157,12 +119,8 @@
   left: -100px;
   transform: rotate(357deg);
   background: #a4ccd9;
-  box-shadow:
-    #a4ccd9 55px -10px 0 -5px,
-    #a4ccd9 15px -20px,
-    #a4ccd9 30px 10px,
-    #a4ccd9 60px 15px 0 -10px,
-    #a4ccd9 85px 5px 0 -5px,
+  box-shadow: #a4ccd9 55px -10px 0 -5px, #a4ccd9 15px -20px, #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px, #a4ccd9 85px 5px 0 -5px,
     #b3c4c9 10px 0px 45px 5px;
 }
 
@@ -171,14 +129,9 @@
   left: 50px;
   transform: rotate(357deg);
   background: #40a6bd;
-  box-shadow:
-    #40a6bd 55px -10px 0 -5px,
-    #40a6bd 15px -20px,
-    #40a6bd 30px 10px,
-    #40a6bd 60px 15px 0 -10px,
-    #40a6bd 85px 5px 0 -5px,
+  box-shadow: #40a6bd 55px -10px 0 -5px, #40a6bd 15px -20px, #40a6bd 30px 10px,
+    #40a6bd 60px 15px 0 -10px, #40a6bd 85px 5px 0 -5px,
     #b3c4c9 20px 10px 45px 10px;
-
 }
 
 .main-clouds .text-content {
@@ -186,7 +139,6 @@
   /* margin: 1em auto; */
   padding-top: 2em;
   padding-left: 3em;
-
 }
 
 .main-clouds .input-text {
@@ -195,7 +147,7 @@
   padding: 1.5rem;
   border: 0px;
   border-radius: 5px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .main-clouds p {
@@ -205,7 +157,6 @@
 
 .main-clouds .email {
   padding-top: 2%;
-  
 }
 
 .main-clouds .full_name {
@@ -236,7 +187,7 @@
 .main-clouds h1,
 h4,
 p {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -263,7 +214,6 @@ p {
 }
 
 @media only screen and (max-width: 620px) {
-
   /* For mobile phones: */
   .main-clouds .content {
     width: 95%;
@@ -286,11 +236,10 @@ p {
     padding-right: 2.5em;
   }
 
-
   .main-clouds h1,
   h4,
   p {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 300;
   }
 
@@ -307,10 +256,7 @@ p {
   }
 }
 
-
 @media only screen and (max-width: 376px) {
-
-
   .main-clouds .clouds {
     border-radius: 50%;
     position: absolute;
@@ -318,15 +264,9 @@ p {
     z-index: -1;
     height: 50px;
     width: 50px;
-    box-shadow:
-      #71b4d0 55px -10px 0 -5px,
-      #71b4d0 15px -20px,
-      #71b4d0 30px 10px,
-      #71b4d0 60px 15px 0 -10px,
-      #71b4d0 85px 5px 0 -5px,
+    box-shadow: #71b4d0 55px -10px 0 -5px, #71b4d0 15px -20px, #71b4d0 30px 10px,
+      #71b4d0 60px 15px 0 -10px, #71b4d0 85px 5px 0 -5px,
       #b3c4c9 20px 0px 35px 5px;
-
-
   }
 
   .main-clouds .cloud5 {
@@ -363,6 +303,4 @@ p {
     height: 0px;
     width: 0px;
   }
-
-
 }
