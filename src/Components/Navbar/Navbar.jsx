@@ -72,11 +72,11 @@ const Navbar = () => {
               <a href="/howItWorks" className="block py-2 px-1 rounded hover:text-[#191916] md:border-0 md:hover:text-[#191916] md:p-0 ">How it works</a>
             </li>
             <li className={`${activeItem === 'contactUs' ? 'text-blue-500' : ''} cursor-pointer`} onClick={() => handleItemClick('contactUs')}>
-              <a href="/contactUs" className="block py-2 px-1 rounded hover:text-[#191916] md:border-0 md:hover:text-[#191916] md:p-0 ">Contact Us</a>
+              <a href="/Contact" className="block py-2 px-1 rounded hover:text-[#191916] md:border-0 md:hover:text-[#191916] md:p-0 ">Contact Us</a>
             </li>
             <li>
               <button type="button" className="focus:outline-none text-white bg-[#007e8f]-700 font-medium rounded-lg text-l px-4 py-2 me-2 mb-2 bg-[#007e8f]">
-                <a href="/login
+                <a href="/Login
                 ">Login / Sign Up </a>
               </button>
             </li>

@@ -8,9 +8,9 @@ import Home from './Pages/Home.jsx'
 import HowItWorks from './Pages/HowItWorks.jsx'
 import LoginSignUp from './Pages/LoginSignUp.jsx'
 import OurTeam from './Pages/OurTeam.jsx'
+import Contact from './Pages/Contact.jsx'
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-
+import Login from './Pages/Login.jsx'
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
         <Route path= "/about" element={<About  category="about" />} />
         <Route path= "/ourTeam" element={<OurTeam  category="ourTeam" />} />
         <Route path= "/howItWorks" element={<HowItWorks  category="howItWorks" />} />
-        <Route path= "/contactUs" element={<ContatcUs category="contactUs"/>} />
-        <Route path= "/login" element={<LoginSignUp />} />
+        <Route path= "/Contact" element={<Contact category="Contact"/>} />
+        <Route path= "/Login" element={<Login />} />
        </Routes>
       </BrowserRouter>
       
