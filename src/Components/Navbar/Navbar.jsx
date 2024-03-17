@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 shadow-md font-sans lg:px-24 md:px-0 sm:px-0">
       <div className="max-w-screen-xl flex wrap md:flex  items-center justify-between p-2">
-        <a href="#" className="px-2 flex items-center space-x-2 rtl:space-x-reverse">
+        <a href="/" className="px-2 flex items-center space-x-2 rtl:space-x-reverse">
           <img src={logo} className="h-24" alt="PressX Logo" />
         </a>
         <button
