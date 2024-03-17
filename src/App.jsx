@@ -1,3 +1,4 @@
+
 import './App.css'
 import Navbar from './Components/Navbar/Navbar.jsx'
 import {BrowserRouter, Routes , Route } from 'react-router-dom'
@@ -7,9 +8,13 @@ import Home from './Pages/Home.jsx'
 import HowItWorks from './Pages/HowItWorks.jsx'
 import LoginSignUp from './Pages/LoginSignUp.jsx'
 import OurTeam from './Pages/OurTeam.jsx'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+
 
 function App() {
   return (
+
     <div>
       <BrowserRouter>
       <Navbar />
@@ -25,6 +30,7 @@ function App() {
       
       
     </div>
+
   );
 }
 
