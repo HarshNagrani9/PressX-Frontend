@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Login from "./Pages/Login";
+import Maintenance from "./Pages/Maintenance";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +13,7 @@ function App() {
     <>
       {/* <About /> */}
       {/* <Contact /> */}
-      <Login/>
+      <Maintenance/>
     </>
   );
 }

@@ -1,7 +1,8 @@
 import React from "react";
-import './CSS/Login.css';
+import './CSS/maintenance.css'
 
-export default function Login() {
+
+export default function Maintenance() {
   return (
     <div>
       <div className="login">
