@@ -160,14 +160,14 @@
 }
 
 .main-clouds .full_name {
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 .main-clouds .button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  padding: 1em;
   /* margin: 2em 15em; */
 }
 

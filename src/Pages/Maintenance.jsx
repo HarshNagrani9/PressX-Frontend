@@ -5,8 +5,8 @@ import './CSS/maintenance.css'
 export default function Maintenance() {
   return (
     <div>
-      <div className="login">
-        <h1>Our site is getting some little tune up and some love.</h1>
+      <div className="main">
+        <h1>Our Site is getting some little tune up and Some Love.</h1>
       </div>
       <div className="para">
         <p>

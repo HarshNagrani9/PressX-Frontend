@@ -1,0 +1,44 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* .container {
+    margin: auto;
+    padding: auto;
+  }
+
+  .row {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .content {
+    padding: 15% 25%;
+  }
+
+  .heading {
+    color: #f6df0f;
+    font-size: 72px;
+    font-weight: 900;
+  }
+  .subHeading {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+
+  @media (max-width: 769px) {
+    .content {
+        padding: 5% 15%;
+      }
+  }
+
+
+  @media (max-width: 426px) {
+    .content {
+      padding: 5% 5%;
+      text-align: center;
+    }
+  } */
