@@ -65,8 +65,8 @@ const Navbar = () => {
             <li className={`${activeItem === 'about' ? 'text-blue-500' : 'text-[#191916]'} cursor-pointer`} onClick={() => handleItemClick('about')}>
               <a href="/about" className="block py-2 px-1 rounded  md:border-0  md:p-0 ">About</a>
             </li>
-            <li className={`${activeItem === 'ourTeam' ? 'text-blue-500' : ''} cursor-pointer`} onClick={() => handleItemClick('ourTeam')}>
-              <a href="/ourTeam" className="block py-2 px-1  rounded hover:text-[#191916] md:border-0 md:hover:text-[#191916] md:p-0  ">Our Team</a>
+            <li className={`${activeItem === 'Services' ? 'text-blue-500' : ''} cursor-pointer`} onClick={() => handleItemClick('ourTeam')}>
+              <a href="/Services" className="block py-2 px-1  rounded hover:text-[#191916] md:border-0 md:hover:text-[#191916] md:p-0  ">Services</a>
             </li>
             <li className={`${activeItem === 'howItWorks' ? 'text-blue-500' : ''} cursor-pointer`} onClick={() => handleItemClick('howItWorks')}>
               <a href="/howItWorks" className="block py-2 px-1 rounded hover:text-[#191916] md:border-0 md:hover:text-[#191916] md:p-0 ">How it works</a>

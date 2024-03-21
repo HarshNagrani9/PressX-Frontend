@@ -10,7 +10,8 @@ import LoginSignUp from './Pages/LoginSignUp.jsx'
 import OurTeam from './Pages/OurTeam.jsx'
 import Contact from './Pages/Contact.jsx'
 import { useState } from "react";
-import Login from './Pages/Login.jsx'
+import Login from './Pages/Maintenance.jsx'
+import Services from './Pages/Services.jsx'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path= "/howItWorks" element={<HowItWorks  category="howItWorks" />} />
         <Route path= "/Contact" element={<Contact category="Contact"/>} />
         <Route path= "/Login" element={<Login />} />
+        <Route path="/Services" element={<Services/>}/>
        </Routes>
       </BrowserRouter>
       
