@@ -12,6 +12,7 @@ import Contact from './Pages/Contact.jsx'
 import { useState } from "react";
 import Login from './Pages/Maintenance.jsx'
 import Services from './Pages/Services.jsx'
+import MainFooter from './Components/footer/MainFooter.jsx'
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <Route path="/Services" element={<Services/>}/>
        </Routes>
       </BrowserRouter>
-      
+      <MainFooter />
       
     </div>
 
