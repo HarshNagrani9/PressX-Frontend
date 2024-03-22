@@ -18,7 +18,7 @@ export default function Contact() {
           <section className="clouds cloud10" />
         </div>
         <div className="text-content">
-          <section className="text">
+          <div className="text">
             <h1>
               <span>Stay</span> in Touch
             </h1>
@@ -26,22 +26,22 @@ export default function Contact() {
               Sign up to newsletter to keep updated on events and new things
               coming to PressX
             </h4>
-          </section>
-          <section className="full_name">
+          </div>
+          <div className="full_name">
             <p>Full Name</p>
             <input type="text" className="input-text" placeholder="Full Name" />
-          </section>
-          <section className="email">
+          </div>
+          <div className="email">
             <p>Email Address</p>
             <input
               type="text"
               className="input-text"
               placeholder="Email Address"
             />
-          </section>
-          <section className="button">
+          </div>
+          <div className="button">
             <button>Join us</button>
-          </section>
+          </div>
         </div>
       </div>
     </div>

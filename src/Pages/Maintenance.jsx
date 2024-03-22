@@ -15,9 +15,9 @@ export default function Maintenance() {
           backup soon!
         </p>
       </div>
-      <div className="circle">
-        <section className="circle1"></section>
-        <section className="circle2"></section>
+      <div className="circlee">
+        <div className="half-circle1"></div>
+        <div className="half-circle2"></div>
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ export default class Services extends Component {
         
         <div className="empty-box">
         <div className="bubble">
-          <section className='bubble1'>FREE &nbsp; PICKUP &nbsp; DELIVERY</section>
-          <section className='bubble2'><img src="./src/Components/assets/images/logo.png" alt="Logo" /></section>
+          <div className='bubble1'>FREE &nbsp; PICKUP &nbsp; DELIVERY</div>
+          <div className='bubble2'><img src="./src/Components/assets/images/logo.png" alt="Logo" /></div>
         </div>
         
         <div className="tableOne">
@@ -52,8 +52,8 @@ export default class Services extends Component {
 
         <div className="empty-box2">
         <div className="bubblee">
-          <section className='bubble3'>FREE &nbsp; PICKUP &nbsp; DELIVERY</section>
-          <section className='bubble4'><img src="./src/Components/assets/images/logo.png" alt="Logo" /></section>
+          <div className='bubble3'>FREE &nbsp; PICKUP &nbsp; DELIVERY</div>
+          <div className='bubble4'><img src="./src/Components/assets/images/logo.png" alt="Logo" /></div>
         </div>
         
         <div className="tableTwo">

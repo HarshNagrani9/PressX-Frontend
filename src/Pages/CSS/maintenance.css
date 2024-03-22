@@ -1,5 +1,6 @@
 * {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
   }
   .main{
     font-weight: 700;
@@ -19,66 +20,95 @@
     padding-right: 25%;
     z-index: 2;
     position: relative;
+    margin-bottom: 6%;
   }
-  .circle1 {
+  .half-circle1 {
     position: absolute;
-    bottom: 0%;
+    bottom: 19%;
+    margin-top: 0%;
     left: 0%;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background-color: aqua;
     border-top-right-radius: 200%;
     z-index: 1;
   }
-  .circle2 {
+  .half-circle2 {
     position: absolute;
     top: 7em;
     right: 0%;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background-color: rgb(255, 234, 0);
     border-bottom-left-radius: 200%;
     z-index: 1;
   }
   /* For smaller Screens */
   @media only screen and (max-width: 320px) {
-    .circle1 {
+    .half-circle1  {
       width: 150px;
       height: 150px;
       border-top-right-radius: 100%;
-      position: relative;
+      position: absolute;
+      background-color: aqua;
     }
   }
   @media only screen and (max-width: 600px) {
-    .circle1 {
+    .half-circle1 {
       width: 150px;
       height: 150px;
       border-top-right-radius: 100%;
       position: relative;
+      background-color: aqua;
+      
+      
     }
-    .circle2 {
+    .half-circle2 {
+      
       width: 150px;
       height: 150px;
       border-bottom-left-radius: 100%;
+      /* position: relative;
+      top: 37em;
+      right: 0%;
+      background-color: yellow; */
     }
   }
   
-  /* For Ipad */
+  
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .circle1 {
-      width: 400px;
-      height: 400px;
+    .half-circle1 {
+      width: 300px;
+      height: 300px;
+      /* bottom: 38%; */
       border-top-right-radius: 100%;
+      position: relative;
     
     }
-    .circle2 {
-      top: 7em;
-      width: 400px;
-      height: 400px;
+    .half-circle2  {
+      /* top: 7em; */
+      /* top: 10%; */
+      top:9.5em;
+      width: 300px;
+      height: 300px;
       border-bottom-left-radius: 100%;
       /* position: absolute; */
+      /* z-index: 10; */
     }
   }
+  @media only screen and (max-width: 1280px) {
+    .half-circle1 {
+      
+      /* bottom: 50em; */
+      position: relative;
+    }
+    
+    
+  }
+
+  
+
+
 
   
   
