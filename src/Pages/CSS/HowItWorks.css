@@ -90,24 +90,24 @@ section .icon, .center-line .scroll-icon{
     height: 20rem;
     width: 20rem;
     z-index: -5;
-    right: 70%;
-    bottom: 33%;
+    right: 67%;
+    bottom: 72%;
   }
   
   .circle2 {
     height: 20rem;
     width: 20rem;
     z-index: -5;
-    right: 27%;
-    top: 90%;
+    right: 21%;
+    top: 87%;
   }
   
   .circle3 {
     height: 20rem;
     width: 20rem;
     z-index: -5;
-    right:70%;
-    top: 145%;
+    right:65%;
+    top: 73%;
 
   }
   
@@ -116,15 +116,15 @@ section .icon, .center-line .scroll-icon{
     width: 20rem;
     z-index: -5;
     right:25%;
-    top: 178%;
+    top: 58%;
   }
   
   .circle5 {
     height: 20rem;
     width: 20rem;
     z-index: -5;
-    right:67%;
-    top: 230%;
+    right:27%;
+    top: 30%;
   }
 
   @media screen and (max-width: 1100px){
