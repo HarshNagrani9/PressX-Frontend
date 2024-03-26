@@ -68,11 +68,11 @@ export default class Services extends Component {
               <th style={{ border: '3px solid rgb(236, 191, 77)' }}>&nbsp;18/-&nbsp;</th>
             </tr>
             <tr>
-              <th style={{ border: '3px solid rgb(236, 191, 77)', padding:'1%' }}>Frill (Jahlar) Semi-Dry</th>
+              <th style={{ border: '3px solid rgb(236, 191, 77)', padding:'1%' }}>Frill (Jhalar) Semi-Dry</th>
               <th style={{ border: '3px solid rgb(236, 191, 77)' }}>&nbsp;12/-&nbsp;</th>
             </tr>
             <tr>
-              <th style={{ border: '3px solid rgb(236, 191, 77)', padding:'1%' }}>Frill (Jahlar) Full-Dry</th>
+              <th style={{ border: '3px solid rgb(236, 191, 77)', padding:'1%' }}>Frill (Jhalar) Full-Dry</th>
               <th style={{ border: '3px solid rgb(236, 191, 77)' }}>&nbsp;15/-&nbsp;</th>
             </tr>
             
