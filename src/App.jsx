@@ -13,6 +13,7 @@ import { useState } from "react";
 import Login from './Pages/Maintenance.jsx'
 import Services from './Pages/Services.jsx'
 import MainFooter from './Components/footer/MainFooter.jsx'
+import Maintenance from './Pages/Maintenance.jsx'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path= "/Contact" element={<Contact category="Contact"/>} />
         <Route path= "/Login" element={<Login />} />
         <Route path="/Services" element={<Services/>}/>
+        <Route path='/Maintenance' element={<Maintenance/>}/>
        </Routes>
       </BrowserRouter>
       <MainFooter />

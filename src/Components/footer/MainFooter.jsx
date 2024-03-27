@@ -1,6 +1,10 @@
 import React from "react";
-import './MainFooter.css'
-
+import './MainFooter.css';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import About from "../../Pages/About";
+import Contact from "../../Pages/Contact";
+import Maintenance from "../../Pages/Maintenance";
 
 function MainFooter() {
     return (
@@ -31,36 +35,36 @@ function MainFooter() {
                             <div className="info-items">
                                 <h3>About</h3>
                                 <div className="list-unstyled links">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="/About">About Us</a></li>
+                                    <li><a href={'/Maintenance'}>FAQ</a></li>
                                 </div>
                             </div>
                             <div className="info-items">
                                 <h3>Company</h3>
                                 <div className="list-unstyled links">
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Terms and Condition</a></li>
+                                    <li><a href={'/Maintenance'}>Support</a></li>
+                                    <li><a href="/Contact">Contact us</a></li>
+                                    <li><a href={'/Maintenance'}>Privacy</a></li>
+                                    <li><a href={'/Maintenance'}>Terms and Condition</a></li>
 
                                 </div>
                             </div>
                             <div className="info-items">
                                 <h3>Team</h3>
                                 <div className="list-unstyled links">
-                                    <li><a href="#">Content Partners</a></li>
-                                    <li><a href="#">Our Team</a></li>
-                                    <li><a href="#">Partners</a></li>
+                                    <li><a href={'/Maintenance'}>Content Partners</a></li>
+                                    <li><a href={'/Maintenance'}>Our Team</a></li>
+                                    <li><a href={'/Maintenance'}>Partners</a></li>
 
                                 </div>
                             </div>
                             <div className="info-items">
                                 <h3>Follow US</h3>
                                 <div className="list-unstyled links">
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">Whatsapp</a></li>
-                                    <li><a href="#">Youtube</a></li>
-                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href={'/Maintenance'}>Facebook</a></li>
+                                    <li><a href={'/Maintenance'}>Whatsapp</a></li>
+                                    <li><a href={'/Maintenance'}>Youtube</a></li>
+                                    <li><a href="https://www.instagram.com/pressx_india/">Instagram</a></li>
 
                                 </div>
                             </div>
