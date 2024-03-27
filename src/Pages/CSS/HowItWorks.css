@@ -34,7 +34,8 @@ section{
 }
 
 section .icon, .center-line .scroll-icon{
-    position: relative;
+    position: absolute;
+    left: 47.59%;
     background: #f2f2f2;
     height: 40px;
     width: 40px;
@@ -70,8 +71,16 @@ section .icon, .center-line .scroll-icon{
     left: 48.6%;
     transform: translateX(-50%);
     width: 4px; /* Adjust the width of the line */
-    background-color: rgb(20, 20, 20); /* Adjust the color of the line */
     z-index: 1; 
+  }
+
+  .line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3.25px;
+    background-color: black;
   }
 
   section{
@@ -129,6 +138,13 @@ section .icon, .center-line .scroll-icon{
 
   @media screen and (max-width: 1100px){
 
+    .icon{
+      display: none;
+    }
+    .line{
+      display: none;
+    }
+
     .row-2 section .icon{
         left: 300%;
     }
@@ -170,5 +186,8 @@ section .icon, .center-line .scroll-icon{
     }
     section .icon{
         left: 300%;
+    }
+    .line{
+      display: none;
     }
   }

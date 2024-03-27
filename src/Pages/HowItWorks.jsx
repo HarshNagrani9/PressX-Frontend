@@ -12,6 +12,7 @@ const HowItWorks = () => {
   return (
     <div className="main">
         <div className="warpper">
+        <div class="line"></div>
             <div className="roww row-1">
                 <section>
                 <i className="icon fas fa-home"></i>
