@@ -3,20 +3,11 @@ import './CSS/Login.css';
 
 export default function Login() {
   return (
-    <div>
-      <div className="login">
-        <h1>Our site is getting some little tune up and some love.</h1>
-      </div>
-      <div className="para">
-        <p>
-          We apologize for the inconvenience,but we're performing some
-          maintenance. You can still contact us at <a href="mailto:admin@gmail.com">admin@gmail.com</a>. We'll be
-          backup soon!
-        </p>
-      </div>
-      <div className="circle">
-        <section className="circle1"></section>
-        <section className="circle2"></section>
+    <div className="h-screen flex justify-center">
+      <div className="flex flex-wrap ">
+        <button className="w-80 h-80 m-4 bg-blue-500 text-white rounded-lg">Customer Login</button>
+        <button className="w-80 h-80 m-4 bg-blue-500 text-white rounded-lg">Powerhouse Login</button>
+        <button className="w-80 h-80 m-4 bg-blue-500 text-white rounded-lg">Laundry Login</button>
       </div>
     </div>
   );

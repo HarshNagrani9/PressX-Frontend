@@ -10,7 +10,7 @@ import LoginSignUp from './Pages/LoginSignUp.jsx'
 import OurTeam from './Pages/OurTeam.jsx'
 import Contact from './Pages/Contact.jsx'
 import { useState } from "react";
-import Login from './Pages/Maintenance.jsx'
+import Login from './Pages/Login.jsx'
 import Services from './Pages/Services.jsx'
 import MainFooter from './Components/footer/MainFooter.jsx'
 import Maintenance from './Pages/Maintenance.jsx'
